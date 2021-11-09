@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Workshop on Deep Learning for Knowledge Graphs</title>
+  <title>Machine Learning on Graphs (MLoG) Workshop</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">DL4KG</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">MLoG</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -73,9 +73,9 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Workshop at <a href="https://2020.eswc-conferences.org/">ESWC 2020</a> on</div>
-        <div class="intro-heading text-uppercase">Deep Learning for Knowledge Graphs</div>
-	       <div class="intro-lead-in">Proceedings are available <a href="http://ceur-ws.org/Vol-2635/">on-line</a>.</div>
+        <div class="intro-heading text-uppercase">Machine Learning on Graphs</div>
+	<div class="intro-lead-in">MLoG Workshop at <a href="https://www.wsdm-conference.org/2022/">WSDM'22</a></div>
+	       <!-- <div class="intro-lead-in">Proceedings are available <a href="http://ceur-ws.org/Vol-2635/">on-line</a>.</div> -->
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#home">More Details!</a>
       </div>
     </div>
@@ -88,20 +88,12 @@
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">About</h2>
           <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
-          <p style="text-align:justify">Over the past years there has been a rapid growth in the use and the importance
-            of Knowledge Graphs (KGs) along with their application to many important tasks. KGs are large networks of
-            real-world entities described in terms of their semantic types and their relationships to each other. On the
-            other hand, Deep Learning methods have also become an important area of research, achieving some important
-            breakthrough in various research fields, especially Natural Language Processing (NLP) and Image Recognition.
+          <p style="text-align:justify">
+	    Graphs, which encode pairwise relations between entities, are a kind of universal data structure for a lot of real-world data, including social networks, transportation networks, and chemical molecules. Many important applications on these data can be treated as computational tasks on graphs. Recently, machine learning techniques are widely developed and utilized to effectively tame graphs for discovering actionable patterns and harnessing them for advancing various graph-related  computational tasks. Huge success has been achieved and numerous real-world applications have benefited from it. However, since in today’s world we are generating and gathering data in a much faster and diverse way, real-world graphs are becoming increasingly large-scale and complex. More dedicated efforts are needed to propose more advanced machine learning techniques and properly deploy them for real-world applications in a scalable way.
           </p>
 
-          <p style="text-align:justify">In order to pursue more advanced methodologies, it has become critical that the
-            communities related to Deep Learning, Knowledge Graphs, and NLP join their forces in order to develop more
-            effective algorithms and applications.
-            This workshop, in the wake of other similar efforts at previous Semantic Web conferences such as ESWC2018 as
-            <a href="http://usc-isi-i2.github.io/DL4KGS/">DL4KGs</a> and ISWC2018, <a href="https://alammehwish.github.io/dl4kg-eswc/">ESWC2019</a>, aims to reinforce the relationships
-            between these communities and foster inter-disciplinary research in the areas of KG, Deep Learning, and
-            Natural Language Processing.
+          <p style="text-align:justify">
+	    MLoG at WSDM'22 provides a venue to gather the academia researchers and industry researchers/practitioners to present the recent progress of machine learning on graphs.
           </p>
           <br />
         </div>
@@ -141,26 +133,33 @@
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Topics of Interest</h2>
           <div style="text-align:left">
-            New approaches for combining Deep Learning and Knowledge Graphs<br />
+	    Graphs are a kind of universal data structure for representing pair-wise relationships between entities, which can be ubiquitously observed in different domains ranging from computer science~\cite{wellman2001computer}, social science~\cite{scott1988social}, physics~\cite{battaglia2016interaction}, chemistry~\cite{trinajstic2018chemical}, to biology~\cite{mason2007graph}. Many real-world applications can be treated as computational tasks on graphs. For example, friend recommendation in social networks can be regarded as a link prediction task~\cite{liben2007link} and predicting properties of chemical compounds can be treated as a graph classification task~\cite{duvenaud2015convolutional}. To facilitate these tasks, machine learning techniques have been widely adopted to perform analysis~\cite{von2007tutorial,chami2020machine,perozzi2014deepwalk,kipf2016semi}. As our ability of generating and collecting data constantly increasing in a unprecedented way, the graph-structure data we are facing in the modern era (especially coming from the web) are becoming more and more diverse, complex and large-scale. Hence, more efforts are required for developing more effective algorithms and deploying them efficiently for real-world applications. In this workshop, we aim to discuss the recent research progress of machine learning on graphs in both theoretical foundations and practical applications. We invite submissions that focus on recent advances in research/development of machine learning on graphs along with their applications.
+<br />
+	    Theory and methodology papers are welcome from any of the following areas, including but not limited to:	    
+	    <br />
             <ul>
-
-              <li> Methods for generating Knowledge Graph (node) embeddings</li>
-              <li> Scalability issues</li>
-              <li> Temporal Knowledge Graph Embeddings</li>
-              <li> Novel approaches </li>
+	      <li>Graph Kernels</li>
+	      <li>Graph Summarization</li>
+	      <li>Graph Coarsening</li>
+	      <li>Graph Alignment</li>
+	      <li>Graph Generative Models</li>
+	      <li>Graph Mining</li>
+	      <li>Graph Neural Networks</li>
+	      <li>Network Embedding</li>
+	      <li>Machine Learning for Graph Combinatorial Optimization</li>
+	      <li>Graph Feature Engineering and Selection</li>
+	      <li>Scalable Graph Learning Models and Methods</li>
             </ul>
-            Applications of combining Deep Learning and Knowledge Graphs<br />
+            and application papers focused on but not limited to:<br />
             <ul>
-              <li>Recommender Systems leveraging Knowledge Graphs</li>
-              <li>Link Prediction and completing KGs</li>
-              <li>Ontology Learning and Matching exploiting Knowledge Graph-Based Embeddings</li>
-              <li>Knowledge Graph-Based Sentiment Analysis</li>
-              <li>Natural Language Understanding/Machine Reading</li>
-              <li>Question Answering exploiting Knowledge Graphs and Deep Learning</li>
-              <li>Entity Linking</li>
-              <li>Trend Prediction based on Knowledge Graphs Embeddings</li>
-              <li>Domain Specific Knowledge Graphs (e.g., Scholarly, Biomedical, Musical)</li>
-              <li>Applying knowledge graph embeddings to real world scenarios.</li>
+	      <li>Recommender Systems</li>
+	      <li>Computer Vision</li>
+	      <li>Natural Language Processing</li>
+	      <li>Bioinformatics (e.g., drug discovery)</li>
+	      <li>Cybersecurity (e.g., malware detection/propagation)</li>
+	      <li>Financial security (e.g., fraudster detection)</li>
+	      <li>Transportation/mobility networks (e.g., traffic prediction)</li>
+	      <li>Graph ML Platforms and Systems (e.g., in-database machine learning)</li>
             </ul>
             <br /><br />
 
@@ -184,17 +183,15 @@
           </div> 
 <div class="col-sm-12">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/vazirgiannis.jpg" alt="">
-              <h4><a href="http://www.lix.polytechnique.fr/Labo/Michalis.Vazirgiannis/">Michalis Vazirgiannis</a></h4>
-              <p class="text-muted">Ecole Polytechnique, France</p>
+              <img class="mx-auto rounded-circle" src="img/team/theirimage.jpg" alt="">
+              <h4><a href="http://www.theirwebsite.../">keynote</a></h4>
+              <p class="text-muted">Title</p>
+	      <p class="text-muted">Affiliation</p>
             </div>
           </div>
-          <h3>Title</h3>Message Passing Attention Networks for Document Understanding (<a href="slides/presentation.pdf">slides</a>)<br /><br />
+          <h3>Title</h3> Talk Title (<a href="slides/keynote_slides.pdf">slides</a>)<br /><br />
           <h3>Abstract</h3>
-          <p style="text-align:justify">Graph neural networks have recently emerged as a very effective framework for processing graph-structured data. These models have achieved state-of-the-art performance in many tasks. Most graph neural networks can be described in terms of message passing, vertex update, and readout functions. We investigate the potential of GNNs in the area of NLP.  We represent documents as word co-occurrence networks and propose an application of the message passing framework to NLP, the Message Passing Attention network for Document understanding (MPAD). We also propose several hierarchical variants of MPAD. Experiments conducted on standard text classification datasets show that our architectures are competitive with the state-of-the-art approaches. Ablation studies reveal further insights about the impact of the different components on performance. </p> <br /><br />
-          <h3>Short Biography</h3>
-          <p style="text-align:justify">Dr. Vazirgiannis is a Professor at LIX, Ecole Polytechnique in France. He has conducted research in  Frauenhofer and Max Planck-MPI (Germany), in INRIA/FUTURS (Paris). He has been a teaching in AUEB (Greece), Ecole Polytechnique, Telecom-Paristech, ENS (France), Tsinghua, Jiaotong Shanghai (China) and in Deusto University (Spain).  His current research interests are on deep and machine learning for Graph analysis (including community detection, graph classification, clustering and embeddings, influence maximization), Text mining including Graph of Words, deep learning for word embeddings with applications to web advertising and marketing, event detection and summarization. He has active cooperation with industrial partners in the area of data analytics and machine learning for large scale data repositories in different application domains. He has supervised twenty completed PhD theses. He has published three books and more than a 200 papers in international refereed journals and conferences and received best paper awards in ACM CIKM2013 and IJCAI2018. He has organized large scale conferences in the area of Data Mining and Machine Learning (such as ECML/PKDD) while he participates in the senior PC of AI and ML conferences – such as AAAI and IJCAI. He has received the ERCIM and the Marie Curie EU fellowships, the Rhino-Bird International Academic Expert Award by Tencent and between 2015 and 2018 he lead the AXA Data Science chair.</p>
-
+          <p style="text-align:justify">Talk abstract </p> <br /><br />
         </div>
       </div>
 
@@ -205,58 +202,45 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Workshop Program and Proceedings</h2>
-          <h3 class="section-subheading text-muted">Accepted Papers.</h3>
+          <h3 class="section-subheading text-muted">Accepted Papers (TBD).</h3>
           <ul style="text-align:justify">
 
 
-          	<li><a href="papers/paper1.pdf">Towards Exploiting Implicit Human Feedback for Improving RDF2vec Embeddings</a>. Ahmad Al Taweel and Heiko Paulheim  (<a href="slides/dl4kg_2020_heiko_paulheim.pdf">slides</a>)</li>
-			<li><a href="papers/paper2.pdf">DeepLENS: Deep Learning for Entity Summarization</a>. Qingxia Liu, Gong Cheng and Yuzhong Qu (<a href="slides/ESWC20-DL4KG-DeepLENS_20200602_pub.pdf"> slides</a>)</li>
-			<li><a href="papers/paper3.pdf">Conditional Constraints for Knowledge Graph Embeddings</a>. Michael Weyns, Pieter Bonte, Bram Steenwinckel, Filip De Turck and Femke Ongenae  (<a href="slides/Conditional_Constraints_for_KG_Embeddings.pdf"> slides</a>)</li>
-			<li><a href="papers/paper5.pdf">Entity Type Prediction in Knowledge Graphs using Embeddings</a>. Russa Biswas, Radina Sofronova, Mehwish Alam and Harald Sack  (<a href="slides/ESWC2020_DL4KG_Russa_slides.pdf">slides </a>)</li>
-			<li><a href="papers/paper6.pdf">Probing a Semantic Dependency Parser for Translational Relation Embeddings</a>. Riley Capshaw, Marco Kuhlmann and Eva Blomqvist (<a href="slides/DL4KG2020_RileyCapshaw_Probing_A_Semantic_Dependency_Parser.pdf">slides</a>)</li>
-			<li><a href="papers/paper7.pdf">Semantic Entity Enrichment by leveraging Multi-lingual Descriptions for Link Prediction</a>. Genet Asefa Gesese, Mehwish Alam and Harald Sack (<a href="slides/ESWC2020-DL4KG-Genet.pdf">slides</a>)</li>
-			<li><a href="papers/paper8.pdf">Affinity Dependent Negative Sampling for Knowledge Graph Embeddings</a>. Mirza Mohtashim Alam, Hajira Jabeen, Mehdi Ali, Karishma Mohiuddin and Jens Lehmann (<a href="slides/ADNS-DL5KG.pdf">slides</a>)</li>
+            <li><a href="papers/paper-1.pdf">Title</a>. Authors (<a href="slides/paper-1-slides.pdf">slides</a>)</li>
+	    
           </ul>
 
 
-          <h3 class="section-subheading">Workshop Program. (All times are in CEST.)</h3>
+          <h3 class="section-subheading">Workshop Program. (All times are in MST [Local time in Phoenix, AZ at WSDM'22]).</h3>
 
-          <b>10:00 - 10:10 Welcome </b><br />
+	  <h3><b>Morning Session</b></h3>
+          08:30 - 08:40 Welcome and Opening Remarks<br />
           <hr>
-		<br />
-          10:10 - 11:00 Invited Talk by <a href="http://www.lix.polytechnique.fr/Labo/Michalis.Vazirgiannis/">Michalis Vazirgiannis</a><br /><br />
-          <hr>
-          <b>11:00 - 11:30 Coffee Break </b><br />
-          <hr>
-          <b>Session 1: 11:30 - 13:00 </b><br />
-		  <hr>
-          <ul style="text-align:justify">
-          	<li>11:30 - 12:00	Mirza Mohtashim Alam, Hajira Jabeen, Mehdi Ali, Karishma Mohiuddin and Jens Lehmann. Affinity Dependent Negative Sampling for Knowledge Graph Embeddings</li>
-		<li>12:00 - 12:25	Riley Capshaw, Marco Kuhlmann and Eva Blomqvist. Probing a Semantic Dependency Parser for Translational Relation Embeddings</li>
-		<li>12:25 - 12:55	Ahmad Al Taweel and Heiko Paulheim. Towards Exploiting Implicit Human Feedback for Improving RDF2vec Embeddings</li>
-
-          </ul>
-          <hr>
-          <b>13:00 - 14:00 LUNCH BREAK </b><br />
-          <hr><br />
-          <b>Session 2: 14:00 - 15:30 </b> <br />
-		  <hr>
-          <ul style="text-align:justify">
-            <li>14:00 - 14:25	Genet Asefa Gesese, Mehwish Alam and Harald Sack. Semantic Entity Enrichment by leveraging Multi-lingual Descriptions for Link Prediction</li>
-			<li>14:25 - 14:50	Qingxia Liu, Gong Cheng and Yuzhong Qu. DeepLENS: Deep Learning for Entity Summarization</li>
-			<li>14:50 - 15:15	Russa Biswas, Radina Sofronova, Mehwish Alam and Harald Sack. Entity Type Prediction in Knowledge Graphs using Embeddings</li>
-			<!--<li>15:15 - 15:30	LIGHTNING TALK!	</li>-->
-          </ul>
-          <hr>
-          <b>15:30 - 16:00 COFFEE BREAK</b> <br />
-          <hr>
-          <b>Session 3: 16:00 - 17:00</b> <br />
-		  <hr>
-          <ul style="text-align:justify">
-           <li>16:00	16:30	Michael Weyns, Pieter Bonte, Bram Steenwinckel, Filip De Turck and Femke Ongenae. Conditional Constraints for Knowledge Graph Embeddings</li>
-		   <li>16:30	16:45	Discussion and Feedback	</li>
-		   <li>16:45	17:00	Closing	</li>
-          </ul>
+	  08:40 - 09:10 Keynote from Academia I <br />
+	  09:10 - 09:40 Keynote from Industry I<br />
+	  09:40 - 10:10 Contributed Research Oral Talks<br />
+	  <hr>
+	  10:10 - 10:30 Coffee break/Social Networking<br />
+	  <hr>
+	  10:30 - 11:00 Keynote from Academia II<br />
+	  11:00 - 11:30 Keynote from Industry II<br />
+	  11:30 - 12:00 Keynote from Industry III<br />
+	  2:00 - 12:30 Contributed Research Poster Session<br />
+	  <hr>
+	  Lunch Break (12:30 - 13:30)<br /> 
+	  <hr>
+	  <h3><b>Afternoon Session</b></h3><br /> 
+	  13:30 - 14:00 Keynote from Academia III<br /> 
+	  13:30 - 14:00 Keynote from Industry IV<br /> 
+	  14:00 - 14:30 Contributed Research Oral Talks<br /> 
+	  14:30 - 14:50 Coffee break/Social Networking<br /> 
+	  14:50 - 15:20 Keynote from Academia IV<br /> 
+	  <hr>
+	  15:20 - 15:50 Future Directions Panel (Keynote Speakers)<br /> 
+	  <hr>
+	  15:50 - 16:00 Best Paper Award Ceremony & Final Remarks <br /> 
+	  <hr>
+	  16:00 - 17:00 Contributed Research Poster Session<br /> 
         </div>
       </div>
   </section>
@@ -269,24 +253,23 @@
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Submission Details</h2>
           <div style="text-align:left">
-            Papers must comply with the <a href='https://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0'>LNCS</a>
-            style<br>
+            Papers must comply with the ... style<br>
             Papers are submitted in PDF format via the workshop’s <a
-              href='https://easychair.org/conferences/?conf=dl4kg'>EasyChair</a> submission pages<br>
+              href='https://easychair.org/conferences/?conf=TOBEADDED'>EasyChair</a> submission page.<br>
             <br>
-            Submissions can fall in one of the following categories:
+	    <!--
+	    Submissions can fall in one of the following categories:
             <ul>
               <li>Full research papers (8-10 pages)</li>
               <li>Short research papers (4-6 pages)</li>
               <li>Position papers (2 pages)</li>
               <li>Lightning talks (1 page abstract)</li>
             </ul>
-            </br>Accepted papers (after blind review of at least 3 experts) will be published by <a
-              href='http://ceur-ws.org/'>CEUR–WS</a>. The best paper (according to the reviewers’ rate) will be
-            published within the main conference proceedings.<br><br>
+	    -->
+            </br>Papers will receive single blind review of at least 3 PC members. The best paper (according to the reviewers’ rating) will be
+            announced at the end of the workshop.<br><br>
 
-            At least one of the authors of the accepted papers must register for the workshop (pre-conference only
-            option) to be included into the workshop proceedings.
+            <!-- At least one of the authors of the accepted workshop papers must register for the workshop. -->
           </div>
           <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
         </div>
@@ -301,14 +284,14 @@
           <h2 class="section-heading text-uppercase">Important Dates</h2>
           <div style="text-align:left">
            <ul>
-              <li>Submission deadline: <b><s>Friday February 28th, 2020</s> <s>Friday March 6th, 2020</s> Friday March 13th, 2020</b></li>
-              <li>Notification of Acceptance: <b><s>Friday March 27th, 2020</s> Friday April 10th, 2020</b></li>
-              <li>Camera-ready paper due: <b><s>Friday April 10th, 2020</s> Monday April 20th, 2020</b></li>
-              <li>ESWC 2020 Workshop day: <b>Tuesday June 2nd, 2020</b></li>
+              <li>Submission deadline: <b>TBD</b> </li>
+              <li>Notification of Acceptance: <b>TBD</b> </li>
+              <li>Camera-ready paper due: <b>TBD</b> </li>
+              <li>ESWC 2020 Workshop day: <b>TBD</b> </li>
             </ul>
-            <div style="text-align:center"><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-                href="https://docs.google.com/document/d/e/2PACX-1vSA-UmH7n1f9bZKCIqp-vJxiC7p0VVY_FEuz2VH2z1t7vDpfHeB3K9jVX4C63Z7sxjGmxIENsemi55G/pub">Read
-                CFP</a>
+            <!-- <div style="text-align:center"><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+                href="">Read
+                CFP</a> -->
               </div>
           </div>
           <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
@@ -331,6 +314,7 @@
           <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
         </div>
       </div>
+      <!-- 
       <div class="row">
         <div class="col-sm-4">
           <div class="team-member">
@@ -385,7 +369,7 @@
           </div>
         </div>
       </div>
-
+      -->
 
 
 
@@ -397,22 +381,7 @@
           <h2 class="section-heading text-uppercase">Program Committee</h2>
           <div style="text-align:left">
             <ul>
-              <li>Russa Biswas, FIZ-Karlsruhe, Karlsruhe Institute of Technology, Germany.</li>
-              <li>Danilo Dessi', FIZ-Karlsruhe, Karlsruhe Institute of Technology, Germany.</li>
-              <li>Stefan Dietze, L3S Hannover, Germany.</li>
-              <li>Mauro Dragoni, Fondazione Bruno Kessler, Italy.</li>
-              <li>Genet Asefa Gesese, FIZ-Karlsruhe, Karlsruhe Institute of Technology, Germany.</li>
-              <li>Pascal Hitzler, Wright State University, USA.</li>
-              <li>Mayank Kejriwal, Information Science Institute, University of Southern California, USA.</li>
-              <li>Gerard de Melo, Rutgers University, USA.</li>
-              <li>Amedeo Napoli, LORIA, CNRS, France.</li>
-              <li>Finn Årup Nielsen, Technical University of Denmark, Denmark.</li>
-              <li>Achim Rettinger, AIFB-KIT, Germany.</li>
-              <li>Petar Ristoski, IBM research, USA.</li>
-              <li>Thiviyan Thanapalasingam, Vrije University of Amsterdam, the Netherlands.</li>
-              <li>Veronika Thost, IBM Research, USA.</li>
-              <li>Volker Tresp, Siemens AG, Germany.</li>
-              <li>Lei Zhang, FIZ-Karlsruhe, Karlsruhe Institute of Technology, Germany.</li>
+	      <li> Name, Affiliation </li>
             </ul>
           </div>
         </div>
@@ -422,11 +391,11 @@
     </div>
   </section>
 
-      <section class="py-5">
+  <!-- 
+  <section class="py-5">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase">Sponsors</h2>
-        <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
       </div>
     </div>
 
@@ -444,7 +413,8 @@
       </div>
     </div>
   </section>
-
+  -->
+  
   <!-- Clients 
     <section class="py-5">
       <div class="container">
@@ -528,7 +498,7 @@
           <div class="col-md-2 col-sm-5">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="https://twitter.com/dl4kg1">
+                <a href="https://twitter.com/MLoG_Workshop">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
