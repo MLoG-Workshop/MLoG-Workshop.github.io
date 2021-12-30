@@ -594,6 +594,31 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
+
+.keynote {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.keynote img {
+  width: 225px;
+  height: 225px;
+  border: 7px solid #fff;
+}
+
+.keynote h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+.keynote p {
+  margin-top: 0;
+}
+
+
+
+
 section#contact {
   background-color: #212529;
   background-image: url("../img/map-image.png");
