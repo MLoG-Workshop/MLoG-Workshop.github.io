@@ -619,6 +619,34 @@ header.masthead .intro-text .intro-heading {
 
 
 
+.keynotee {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.keynotee img {
+  width: 225px;
+  height: 326px;
+  border: 7px solid #fff;
+}
+
+.keynotee h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+.keynotee p {
+  margin-top: 0;
+}
+
+
+
+
+
+
+
+
 section#contact {
   background-color: #212529;
   background-image: url("../img/map-image.png");
